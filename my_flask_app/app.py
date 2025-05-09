@@ -1,7 +1,11 @@
-from flask import Flask, request
+from flask import Flask, request, render_template
 from pymongo import MongoClient
 
 app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 @app.route('/submittodoitem', methods=['POST'])
 def submit_todo_item():
