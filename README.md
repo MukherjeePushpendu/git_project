@@ -8,7 +8,7 @@ A simple Flask web application with a frontend form to submit ToDo items and a b
  1️⃣ Clone the repository
 
 bash
-git clone https://github.com/YourUsername/YourRepo.git
+git clone (https://github.com/MukherjeePushpendu/git_project.git)
 cd YourRepo
 
 
