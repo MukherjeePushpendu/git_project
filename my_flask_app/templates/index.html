@@ -2,11 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Simple Flask App</title>
+    <title>To-Do App</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Welcome to my Flask app!</h1>
-    <p>This is a simple Flask project.</p>
+    <h1>To-Do List</h1>
+
+    <form action="/add" method="post">
+        <label for="item_name">Item Name:</label><br>
+        <input type="text" id="item_name" name="item_name" required><br><br>
+
+        <label for="item_desc">Item Description:</label><br>
+        <input type="text" id="item_desc" name="item_desc" required><br><br>
+
+        <button type="submit">Add Item</button>
+    </form>
+
 </body>
 </html>
