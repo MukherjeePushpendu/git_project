@@ -1,18 +1,5 @@
-Ah! Got it — you want a professional, concise, clean README that focuses only on:
+GIT PROJECT
 
-✅ what the project is
-✅ how to clone it
-✅ how to install dependencies
-✅ how to run the app
-
-Here’s a minimal, professionallooking README.md:
-
-
-
- 📄 README.md
-
-markdown
- Flask ToDo App
 
 A simple Flask web application with a frontend form to submit ToDo items and a backend route to store them in MongoDB.
 
